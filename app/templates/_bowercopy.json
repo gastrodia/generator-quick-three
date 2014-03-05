@@ -5,9 +5,9 @@
             "clean": true
         },
         "files": {<% if (requirejs) { %>
-            "three.js": "threejs/build/three.js",
+            "three.js": "threejs-build/build/three.js",
             "require.js": "requirejs/require.js"<% } else { %>
-            "three.min.js": "threejs/build/three.min.js"<% } %>
+            "three.min.js": "threejs-build/build/three.min.js"<% } %>
         }
     }
 }

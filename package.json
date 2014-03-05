@@ -1,5 +1,5 @@
 {
-  "name": "generator-threejs",
+  "name": "generator-quick-three",
   "version": "0.2.3",
   "description": "A Yeoman generator for three.js projects",
   "keywords": [
@@ -7,17 +7,11 @@
     "threejs",
     "three.js"
   ],
-  "homepage": "https://github.com/timmywil/generator-threejs",
-  "bugs": "https://github.com/timmywil/generator-threejs/issues",
-  "author": {
-    "name": "Timmy Willison",
-    "email": "",
-    "url": "https://github.com/timmywil"
-  },
+  "homepage": "https://github.com/gastrodia/generator-quick-three",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/timmywil/generator-threejs.git"
+    "url": "git://github.com/gastrodia/generator-quick-three"
   },
   "scripts": {
     "test": "grunt simplemocha"
@@ -31,6 +25,7 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-jsonlint": "~1.0.4",
     "grunt-newer": "~0.6.1",
+    "grunt-bower-requirejs":"*",
     "grunt-simple-mocha": "~0.4.0",
     "load-grunt-tasks": "~0.3.0",
     "mocha": "~1.17.1",
